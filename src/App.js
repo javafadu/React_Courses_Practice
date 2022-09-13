@@ -17,6 +17,9 @@ import Counter from "./components/component11/counter";
 import RandomImage from "./components/component11/randomImage";
 import Bilgiler from "./components/component12/bilgiler";
 import Listele from "./components/component13/listele";
+import Text from "./components/component14/text";
+import UserCards from "./components/component16/user-cards";
+import Countries from "./components/component15/countries";
 
 function App() {
   return (
@@ -37,12 +40,14 @@ function App() {
       <Counter></Counter>
       <RandomImage></RandomImage>
       <Bilgiler/>
-      
+      <Listele/>
+      <Text/>
+       <UserCards></UserCards>
 
       */}
      
-     
-      <Listele/>
+    <Countries></Countries>
+      
       
     </>
   );
