@@ -1,0 +1,31 @@
+body {
+  background-color: #EFEFEF;
+  font-family: 'rubik', sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.article {
+  position:relative;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+}
+
+.container header {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  display:flex;
+  justify-content: space-between;
+  margin:1rem ;
+}

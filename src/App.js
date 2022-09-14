@@ -20,6 +20,10 @@ import Listele from "./components/component13/listele";
 import Text from "./components/component14/text";
 import UserCards from "./components/component16/user-cards";
 import Countries from "./components/component15/countries";
+import Form1 from "./components/component17/form";
+import Tours from "./components/component18/tours";
+import Questions from "./components/component19/questions";
+
 
 function App() {
   return (
@@ -43,10 +47,13 @@ function App() {
       <Listele/>
       <Text/>
        <UserCards></UserCards>
-
+ <Countries></Countries>
+  <Form1/>
+    <Tours></Tours>
       */}
      
-    <Countries></Countries>
+ 
+   <Questions></Questions>
       
       
     </>
